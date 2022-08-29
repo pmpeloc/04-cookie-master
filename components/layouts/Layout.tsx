@@ -9,7 +9,9 @@ type Props = {
 export const Layout: FC<Props> = ({ children }) => {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Cookie Master</title>
+      </Head>
       <nav>
         <Navbar />
       </nav>
